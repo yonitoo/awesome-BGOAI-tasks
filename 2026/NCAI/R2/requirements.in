@@ -1,0 +1,24 @@
+torch==2.1.0+cu121
+torchvision==0.16.0+cu121
+
+numpy<2
+
+# Transformers version compatible with torch 2.1
+transformers>=4.45,<5.0
+huggingface_hub==0.25.2
+# sentence-transformers typically depends on transformers
+# pin it to a version compatible with older transformers
+sentence-transformers<2.3.0
+pyarrow<21.0.0
+peft
+gdown
+Pillow
+datasets==2.14.4
+matplotlib
+pandas
+seaborn
+scikit-learn
+tqdm
+ipykernel
+jupyter
+fsspec==2023.6.0
